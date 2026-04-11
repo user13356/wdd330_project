@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News - PawFlix</title>
+  <meta name="description" content="Latest news">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <img src="images/logo-200.webp" alt="PawFlix logo" class="logo">
+  <h1>News</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dogs.html">Dogs</a>
+    <a href="movies.html">Movies</a>
+    <a href="crypto.html">Crypto</a>
+  </nav>
+
+</header>
+
+<main>
+
+<section class="welcome-banner">
+  <h2>Latest News</h2>
+  <p>Stay updated with trending articles and headlines.</p>
+</section>
+
+<section>
+  <picture>
+    <source srcset="
+      images/news-hero-600.webp 600w,
+      images/news-hero-900.webp 900w,
+      images/news-hero-1200.webp 1200w"
+      sizes="(max-width:600px)100vw,(max-width:900px)80vw,1200px"
+      type="image/webp">
+    <img src="images/news-hero-1200.webp" alt="News banner" loading="lazy">
+  </picture>
+</section>
+
+<section>
+  <h2>Latest News</h2>
+  <div id="news-container"></div>
+</section>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

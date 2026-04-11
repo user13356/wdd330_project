@@ -1,0 +1,6 @@
+export const CONFIG = {
+  DOG_API_KEY: "YOUR_KEY",
+  OMDB_API_KEY: "4e66f306",
+  COIN_API_KEY: "YOUR_KEY",
+  NEWS_API_KEY: "f9f9a24da293457e8438ef2fe1c87b66"
+};

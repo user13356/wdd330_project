@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movies - PawFlix</title>
+  <meta name="description" content="Search movies">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <img src="images/logo-200.webp" alt="PawFlix logo" class="logo">
+  <h1>Movies</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dogs.html">Dogs</a>
+    <a href="crypto.html">Crypto</a>
+    <a href="news.html">News</a>
+  </nav>
+
+</header>
+
+<main>
+
+<section class="welcome-banner">
+  <h2>Welcome to Movies</h2>
+  <p>Search and explore movie information using OMDb API.</p>
+</section>
+
+<section>
+  <picture>
+    <source srcset="
+      images/movies-hero-600.webp 600w,
+      images/movies-hero-900.webp 900w,
+      images/movies-hero-1200.webp 1200w"
+      sizes="(max-width:600px)100vw,(max-width:900px)80vw,1200px"
+      type="image/webp">
+    <img src="images/movies-hero-1200.webp" alt="Movies banner" loading="lazy">
+  </picture>
+</section>
+
+<section>
+  <h2>Search Movies</h2>
+  <input id="movie-input" type="text" placeholder="Enter movie name">
+  <button id="search-movie">Search</button>
+  <div id="movie-results"></div>
+</section>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

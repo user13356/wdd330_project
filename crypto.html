@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crypto - PawFlix</title>
+  <meta name="description" content="Crypto dashboard">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <img src="images/logo-200.webp" alt="PawFlix logo" class="logo">
+  <h1>Crypto</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dogs.html">Dogs</a>
+    <a href="movies.html">Movies</a>
+    <a href="news.html">News</a>
+  </nav>
+
+</header>
+
+<main>
+
+<section class="welcome-banner">
+  <h2>Welcome to Crypto Dashboard</h2>
+  <p>Track live cryptocurrency prices and trends.</p>
+</section>
+
+<section>
+  <picture>
+    <source srcset="
+      images/crypto-hero-600.webp 600w,
+      images/crypto-hero-900.webp 900w,
+      images/crypto-hero-1200.webp 1200w"
+      sizes="(max-width:600px)100vw,(max-width:900px)80vw,1200px"
+      type="image/webp">
+    <img src="images/crypto-hero-1200.webp" alt="Crypto banner" loading="lazy">
+  </picture>
+</section>
+
+<section>
+  <h2>Crypto Prices</h2>
+  <div id="crypto-container"></div>
+</section>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
